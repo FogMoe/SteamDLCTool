@@ -26,7 +26,7 @@ namespace Steam_DLC_Tool
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            System.Diagnostics.Process.Start("https://fog.moe");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace Steam_DLC_Tool
                 }
                 else
                 {
-                    MessageBox.Show("验证失败！");
+                    MessageBox.Show("密钥不正确，请检查密钥是否失效。");
                 }
             }           
 
