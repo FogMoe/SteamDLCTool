@@ -9,3 +9,14 @@ E:\GitHub\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.Generate
 E:\GitHub\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.CoreCompileInputs.cache
 E:\GitHub\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.exe
 E:\GitHub\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.pdb
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\bin\Debug\Steam-DLC-Tool.exe.config
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\bin\Debug\Steam-DLC-Tool.exe
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\bin\Debug\Steam-DLC-Tool.pdb
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.AssemblyReference.cache
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.SuggestedBindingRedirects.cache
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam_DLC_Tool.Form1.resources
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam_DLC_Tool.Properties.Resources.resources
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.GenerateResource.cache
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.csproj.CoreCompileInputs.cache
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.exe
+E:\GitHub\SteamDLCTool\Steam-DLC-Tool\Steam-DLC-Tool\obj\Debug\Steam-DLC-Tool.pdb
