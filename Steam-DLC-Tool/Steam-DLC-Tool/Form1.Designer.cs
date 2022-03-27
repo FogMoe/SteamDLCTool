@@ -48,8 +48,9 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(129, 111);
-            this.textBox1.MaxLength = 25;
+            this.textBox1.MaxLength = 10;
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(243, 33);
             this.textBox1.TabIndex = 1;
             // 
@@ -100,6 +101,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "SteamDLC工具 - 验证";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

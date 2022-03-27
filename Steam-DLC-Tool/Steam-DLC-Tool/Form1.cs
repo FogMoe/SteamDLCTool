@@ -46,11 +46,20 @@ namespace Steam_DLC_Tool
                 {
                     MessageBox.Show("验证成功！");
                 }
+                else if (textBox1.Text == "")
+                {
+                    MessageBox.Show("请输入密钥。");
+                }
                 else
                 {
                     MessageBox.Show("密钥不正确，请检查密钥是否失效。");
                 }
             }           
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
