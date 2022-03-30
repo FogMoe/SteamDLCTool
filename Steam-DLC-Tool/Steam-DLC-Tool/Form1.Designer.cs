@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -83,9 +84,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(303, 25);
+            this.label2.Size = new System.Drawing.Size(341, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "当前程序为测试版 请获取密钥使用";
+            this.label2.Text = "当前程序为测试版 请免费获取密钥使用";
             // 
             // label3
             // 
@@ -112,10 +113,12 @@
             this.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ForeColor = System.Drawing.Color.HotPink;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "SteamDLC工具 - 验证";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
