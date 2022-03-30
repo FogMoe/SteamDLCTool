@@ -45,6 +45,9 @@ namespace Steam_DLC_Tool
                 if (responseString == "True")
                 {
                     MessageBox.Show("验证成功！");
+                    Form2 form2 = new Form2();
+                    form2.Show();
+                    this.Visible = false;
                 }
                 else if (textBox1.Text == "")
                 {
@@ -59,6 +62,29 @@ namespace Steam_DLC_Tool
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+            string thisVersion = label3.Text;
+            using (var client = new WebClient())
+            {
+                var values = new NameValueCollection();
+                values["verifyVer"] = thisVersion;
+                var response = client.UploadValues("http://verify.fogmoe.top/verifyVer.php", values);
+                var responseString = Encoding.Default.GetString(response);
+                if (responseString == "False")
+                {
+                    MessageBox.Show("当前" + thisVersion + "不是最新版本，请下载最新版本使用。");
+                    System.Diagnostics.Process.Start("https://fog.moe");
+                }
+                
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
