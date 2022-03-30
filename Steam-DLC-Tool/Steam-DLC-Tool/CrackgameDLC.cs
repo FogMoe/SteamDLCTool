@@ -1,21 +1,32 @@
 ﻿using System;
 using System.IO;
 using System.IO.Compression;
+using System.Windows.Forms;
 
 namespace Steam_DLC_Tool
 {
     internal class CrackgameDLC
     {
         //Modify a file name in the specified path
-        public static void ModifyFileName(string path, string oldName, string newName)
+        public static void ModifyFileName(string path, string oldName, string newName, string gamePath)
         {
             string[] files = System.IO.Directory.GetFiles(path);
             foreach (string file in files)
             {
                 if (file.Contains(oldName))
                 {
-                    string newFile = file.Replace(oldName, newName);
-                    System.IO.File.Move(file, newFile);
+                    try
+                    {
+                        string newFile = file.Replace(oldName, newName);
+                        System.IO.File.Move(file, newFile);
+                    }
+                    catch (Exception)
+                    {
+                        DeleteFile(gamePath + "\\steam_api64_o.dll");
+                        string newFile = file.Replace(oldName, newName);
+                        System.IO.File.Move(file, newFile);
+                    }
+                    
                 }
             }
         }

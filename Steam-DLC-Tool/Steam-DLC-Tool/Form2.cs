@@ -13,7 +13,7 @@ namespace Steam_DLC_Tool
     public partial class Form2 : Form
     {
         string chooseGame;
-        string gameFolderPath;
+        public string gameFolderPath;
         public Form2()
         {
             InitializeComponent();
@@ -67,7 +67,7 @@ namespace Steam_DLC_Tool
                         try
                         {
                             string fromUrl = "https://file1.fogmoe.top/SteamDLCTool/FogMoe-Cities_Skylines.zip";
-                            CrackgameDLC.ModifyFileName(gameFolderPath, "steam_api64.dll", "steam_api64_o.dll");
+                            CrackgameDLC.ModifyFileName(gameFolderPath, "steam_api64.dll", "steam_api64_o.dll",gameFolderPath);
                             CrackgameDLC.DownloadFile(fromUrl, gameFolderPath);
                             CrackgameDLC.Unzip(gameFolderPath);
                             CrackgameDLC.DeleteFile(gameFolderPath + "\\FogMoe-TempData.zip");
